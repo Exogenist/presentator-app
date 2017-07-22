@@ -1,0 +1,199 @@
+body,
+html {
+    height: 100%;
+}
+
+body {
+    background: black;
+}
+
+#content {
+    position: absolute;
+    width: 75vw;
+    height: 300px;
+    /*background-color: cadetblue;*/
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#left {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /*background-color: cadetblue;*/
+    top: 50%;
+    left: 0%;
+    transform: translate(15%, -50%);
+}
+
+.pngLogo {
+    max-width: 450px;
+    min-width: 250px;
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20vh;
+    /*position: absolute;
+    top: 0%;
+    left: 50%;
+    transform: translate(-50%, 0%);*/
+}
+
+#right {
+    transform: translate(-15%, -50%);
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /*background-color: cadetblue;*/
+    top: 50%;
+    right: 0%;
+}
+
+#wrapper {
+    /* The image used */
+    /*background-image: url("http://11hauz.com/swainsonholness/photos/globe.jpg");*/
+    background-color: black;
+    /* Full height */
+    height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: black;
+}
+
+#slide_0 {
+    font-family: 'Poiret One', cursive;
+    text-align: center;
+    color: #c8d1b0;
+    width: 50%;
+    width: 70vw;
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 1.5rem;
+}
+
+.style-left {
+    color: #c8d1b0;
+}
+
+.bug-fix {
+    float: right;
+}
+
+.title-slide1 {
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: #8d591b;
+}
+
+.hr-slide1 {
+    width: 100px;
+    border-width: 17px;
+    border-color: #8d591b;
+    float: left;
+}
+
+.text-slide1 {
+    margin-top: 85px;
+    color: white;
+    max-width: 600px;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3rem;
+    /*text-align: justify;*/
+    /*text-justify: inter-word;*/
+    /*background-color: rgba(0, 0, 0, 0.7)*/
+}
+
+.text-slide2 {
+    margin-top: 35px;
+    color: white;
+    /*max-width: 600px;*/
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3rem;
+    text-align: right;
+}
+
+.title-slide2 {
+    margin-top: 65px;
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    color: black;
+    text-align: center;
+    background-color: #89c0e2;
+}
+
+.sub-head {
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+    color: #89c0e2;
+}
+
+.img-slide2 {
+    /*float: right;*/
+    width: 200px;
+    height: auto;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.title-slide3 {
+    font-family: 'Poiret One', cursive;
+    text-transform: uppercase;
+    font-size: 3.0rem;
+    color: #91BA3F;
+}
+
+.svg-slide3 {
+    max-width: 250px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.text-slide3 {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 700px) {
+    .text-slide1 {
+        font-size: 2.3rem;
+    }
+    #slide_0 {
+        font-size: 2.3rem;
+    }
+    .title-slide2 {
+        font-size: 7.5rem;
+    }
+    .title-slide3 {
+        font-size: 4.3rem;
+    }
+    .sub-head {
+        font-size: 3.3rem;
+    }
+    .text-slide3 {
+        font-size: 2.3rem;
+    }
+    .svg-slide3 {
+        max-width: 350px;
+    }
+    .img-slide2 {
+        /*float: right;*/
+        width: 230px;
+    }
+}
